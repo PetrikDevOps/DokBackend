@@ -16,6 +16,7 @@ def login():
     response = {
         'status': True,
         'user_id': 123,
+        'errormsg': '',
         'key': 'secret_key'
     }
     return jsonify(response)
@@ -35,6 +36,7 @@ def register():
     response = {
         'status': True,
         'user_id': 456,
+        'errormsg': '',
         'key': 'secret_key'
     }
     return jsonify(response)
@@ -85,6 +87,9 @@ def post_message():
         'errormsg': ''
     }
     return jsonify(response)
+
+# Live Chat
+# Implementáció: Live Socket IO server (PORT 2506)
 
 # Tipp (POST)
 @app.route('/sendtipp', methods=['POST'])
