@@ -32,3 +32,20 @@
 
     Where?
     /chat
+
+    format?
+    {comment: [{name: "name", msg: "dasda"}, {name: "name", msg: "dads ddas"}]}
+
+# Chat (POST)
+
+    Where?
+    /newmsg
+
+    format?
+    {name: "name", msg: "dasdasd"}
+
+# Tipp (POST)
+
+    Where?
+    /sendtipp
+    minden legyen post request pls
