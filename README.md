@@ -54,7 +54,10 @@
     res
     {status: Bool, errormsg: "String"}
 
-# Live Socket IO server (PORT 2506)
+# Live Chat
+    
+    Where?
+    Live Socket IO server (PORT 2506)
 
 # Tipp (POST)
 
