@@ -13,7 +13,7 @@
     format?
     {name: "name", pw: "cisco :D", email: "email@gmail.com"}
 
-# Hírek (GET)
+# Hírek (POST)
 
     Where?
     /news
@@ -28,7 +28,7 @@
 
     diakonkormanyzat.petrik@gmail.com
 
-# Chat (GET)
+# Chat (POST)
 
     Where?
     /chat
@@ -48,4 +48,14 @@
 
     Where?
     /sendtipp
-    minden legyen post request pls
+
+    format?
+    {name: "name", tipp: "dsal"}
+
+# Feladat (POST)
+
+    Where?
+    /job
+
+    format?
+    {job: "name of job", desc: "dsaddsa"}
