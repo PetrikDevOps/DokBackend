@@ -1,7 +1,6 @@
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
-
 # Login (POST)
 @app.route('/login', methods=['POST'])
 def login():
@@ -201,4 +200,4 @@ def generate_vote():
     return jsonify(response)
 
 if __name__ == '__main__':
-    app.run(port=2506, debug=True)
+    app.run(debug=True)
