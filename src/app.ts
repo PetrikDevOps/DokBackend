@@ -12,6 +12,7 @@ app.post('/login', (req: Request, res: Response) => {
     // Check username and password
     // ...
 
+
     // Send response
     const response = {
         status: true,
