@@ -57,6 +57,9 @@ app.get('/news', (req: Request, res: Response) => {
     };
     res.json(response);
 });
+app.post('/addnews', (req: Request, res: Response)=>{
+    
+})
 
 // Chat (GET)
 app.get('/chat', (req: Request, res: Response) => {
